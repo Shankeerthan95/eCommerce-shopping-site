@@ -1,0 +1,56 @@
+.my-navbar-toggler
+{
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.my-nav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+
+.my-navbar
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.my-nav-item
+{
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+
+}
+
+
+
+
+@media(max-width: 574px)
+{
+    
+
+    .my-navbar-collapse
+    {
+        background: rgb(28, 104, 128);
+        color: white;
+        font-size: 12px;
+        margin: 0;
+
+        transform: translateZ(2px);
+        
+    }
+
+    .my-nav-item
+    {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

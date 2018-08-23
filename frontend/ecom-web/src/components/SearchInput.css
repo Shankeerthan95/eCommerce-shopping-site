@@ -1,0 +1,24 @@
+.my-search-box
+{
+    display: inline-block;
+    margin-left: 5px;    
+}
+
+.search 
+{
+    display: inline;
+}
+
+.my-search-input
+{
+    display: inline-block;
+}
+
+@media(max-width: 574px)
+{
+    .my-search-box
+    {
+        font-size: 8px;
+        
+    }
+}

@@ -32,6 +32,7 @@
 
 
 
+
 @media(max-width: 574px)
 {
     
@@ -52,5 +53,39 @@
         font-size: 14px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .my-nav-link-small
+    {
+        font-size: 15px;
+        font-weight: 700;
+        
+    }
+    .my-navbar-brand-small 
+    {
+        color: blue;
+    }
+
+}
+
+@media(max-width: 320px)
+{
+    .my-nav-link-small
+    {
+        font-size: 14px;
+        font-weight: 700;
+        
+    }
+    .my-navbar-brand-small 
+    {
+        color: blue;
+    }
+}
+
+@media(min-width: 574px)
+{
+    .my-navbar-brand-small
+    {
+        display: none;
     }
 }

@@ -29,6 +29,14 @@
     
 }
 
+@media(max-width: 574px)
+{
+    .my-navbar-brand
+    {
+        display: none;
+    }
+}
+
 .my-row
 {
     margin: 0;

@@ -11,6 +11,11 @@ class Navbar extends Component {
                                 <li className="my-nav-item"><i className="fas fa-shopping-cart"></i> </li>
                                 <li className="my-nav-item"><i className="fas fa-bell"></i></li>
                             </ul>
+
+                            <div className="my-navbar-brand-small">
+                                <a href="" className="navbar-brand my-nav-link-small"> <span className="fas fa-shopping-bag shopping-bag"> </span> eSy Shopping</a>
+                            </div>
+
                             <button className="navbar-toggler my-navbar-toggler" type="button"
                                 data-toggle="collapse" data-target="#navbarResponsive">
                                 <span className="navbar-toggler-icon"> </span>
